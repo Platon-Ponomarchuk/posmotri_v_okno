@@ -44,6 +44,9 @@ ol {
   justify-content: space-between;
   align-items: end;
   gap: 30px;
+  margin: 133px 0;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .result {
