@@ -44,9 +44,6 @@ ol {
   justify-content: space-between;
   align-items: end;
   gap: 30px;
-  margin: 133px 0;
-  justify-content: space-between;
-  align-items: end;
 }
 
 .result {
@@ -122,14 +119,12 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   border: 1px solid #fff;
   border-right: none;
   border-left: none;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
+  padding: 2.5px 0;
   color: #fff;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   background-color: transparent;
-  appearance: none;
   appearance: none;
 }
 
