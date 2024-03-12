@@ -54,7 +54,6 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  overflow-y: hidden;
 }
 
 .result__video {
@@ -116,7 +115,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 
 .search-form__textfield {
   width: 225px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   border-right: none;
   border-left: none;
   padding: 2.5px 0;
@@ -166,7 +165,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 
 .button {
   align-self: end;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: inherit;
   font-weight: bold;
@@ -208,7 +207,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   justify-content: flex-start;
   align-items: flex-start;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-color: #555 transparent;
 }
 
@@ -259,6 +258,8 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-position: center;
+  object-fit: cover;
 }
 
 .more-button {
